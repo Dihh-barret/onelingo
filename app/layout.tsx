@@ -20,12 +20,13 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body>
+          {/* Authentication components 
           <SignedOut>
             <SignInButton />
           </SignedOut>
           <SignedIn>
             <UserButton />
-          </SignedIn>
+          </SignedIn>*/}
           {children}
         </body>
       </html>
