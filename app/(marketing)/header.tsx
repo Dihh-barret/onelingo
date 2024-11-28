@@ -27,14 +27,10 @@ export const Header = () => {
                 </ClerkLoading>
                 <ClerkLoaded>
                     <SignedIn >
-                        <UserButton afterSignOutUrl="/" />    
+                        <div>This content is accessible only to signed in users.</div>
                     </SignedIn>
                     <SignedOut>
-                        <SignInButton
-                            mode="modal"
-                            afterSignInUrl="/learn"
-                            afterSignUpUrl="/learn">
-                                
+                        <SignInButton fallbackRedirectUrl={"/learn"}>
                         </SignInButton>
                     </SignedOut>
                 </ClerkLoaded>
