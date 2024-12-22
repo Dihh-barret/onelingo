@@ -6,4 +6,4 @@ const LearnPage = () => {
     )
 }
 
-export default LearnPage; 
+export default LearnPage;
